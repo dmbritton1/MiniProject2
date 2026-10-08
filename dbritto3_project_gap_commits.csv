@@ -1,0 +1,566 @@
+pre/post;prj;commit;author;time;message
+pre;apache_ctakes;f50e0a177992a194c78ed02ae309cfaf4beca851;Sean Finan <seanfinan@apache.org>;1559738161;"Xmi Reader that can accept directories
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1860655 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;27defc000570415abfda92d7c4e86eda57ba0084;Chen Lin <clin@apache.org>;1560355061;"add window-based contains relation annotator and evaluation code
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1861144 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;203149f8c7cde2f60e9c1535f2b9d539057902a3;Chen Lin <clin@apache.org>;1560358356;"update window-based relational annotator and its evaluation
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1861155 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;c44a2181cf37fa195a16b268acf01aa0170316c2;Sean Finan <seanfinan@apache.org>;1563465822;"DefaultJdbcDb Simple implementation of AbstractJdbcDb.
+i2b2 package with simple default writer for i2b2 observation_fact tables.
+EmptyInitializer can be passed as Corpus Initializer that does nothing.
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1863323 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;507842e2a8148896a9e577e5e9f3b941555aae7a;Sean Finan <seanfinan@apache.org>;1565717101;"Deprecated FilesInDirectoryCollectionReader in favor of FileTreeReader
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1865052 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;9b5deb71775cbc071799b1ec3cf3224f7f59dc7f;Sean Finan <seanfinan@apache.org>;1565717594;"Deprecated XmiWriterCasConsumerCtakes
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1865056 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;5f2a58afb5c9f6e8eec07dcab2c69bae08642e94;Sean Finan <seanfinan@apache.org>;1567000683;"Add ""BatchSize"" parameter to AbstractJdbcWriter to change the default batch size.  0 or 1 = no internal batching.
+Add some set methods to use BatchSize.
+AbstractUmlsTable: moved two collection instantiations outside loop, clear inside loop.
+
+git-svn-id: https://svn.apache.org/repos/asf/ctakes/trunk@1866038 13f79535-47bb-0310-9956-ffa450edef68
+"
+pre;apache_ctakes;3b7b767339072cc5f74a3d723af8aabc6f571a89;Xia Li <47727869+bd2019us@users.noreply.github.com>;1568853011;"Merge dfa5441c9b432ba51b7e82286c5e8a881fcd67e1 into 5f2a58afb5c9f6e8eec07dcab2c69bae08642e94
+"
+pre;apache_ctakes;1926e0be8048f8235f3232c891b09a3ed03f7189;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1573633294;"Bump jackson-databind from 2.9.7 to 2.9.10.1 in /ctakes-web-rest
+
+Bumps [jackson-databind](https://github.com/FasterXML/jackson) from 2.9.7 to 2.9.10.1.
+- [Release notes](https://github.com/FasterXML/jackson/releases)
+- [Commits](https://github.com/FasterXML/jackson/commits)
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;apache_ctakes;c1d5105388229961a4b8b6d70df4bd2e4a4f3c9a;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1573633296;"Merge 1926e0be8048f8235f3232c891b09a3ed03f7189 into 5f2a58afb5c9f6e8eec07dcab2c69bae08642e94
+"
+post;apache_ctakes;6d45558befca0b4cc3adcca9332f485aba00f1d3;Sean Finan <sean.finan@tch.harvard.edu>;1669751739;Create README
+post;apache_ctakes;9faf8a6344fe1423f3e4b01a1ec7759b92183a2d;Sean Finan <sean.finan@childrens.harvard.edu>;1671235029;"Moving from branch master to main
+"
+post;apache_ctakes;553fe210bfb735b6c4f0e393caa800800d2d014c;Sean Finan <sean.finan@childrens.harvard.edu>;1671491173;"BackwardsTimeAnnotator log init, process start
+ConstituencyParser log init, process start
+DegreeOfRelationExtractorAnnotator log init, process start
+DeterministicMarkableAnnotator log init, process start
+EventAnnotator log init, process start
+EventEventRelationAnnotator log init, process start
+EventTimeRelationAnnotator log init, process start
+ListAnnotator log init, process start
+ListSentenceFixer log init, process start
+LocationOfRelationExtractorAnnotator log init, process start
+MarkableSalienceAnnotator log init, process start
+MaxentParserWrapper log init, process start
+MentionClusterCoreferenceAnnotator log init, process start
+ModifierExtractorAnnotator log init, process start
+ParagraphAnnotator log init, process start
+ParagraphSentenceFixer log init, process start
+RegexSectionizer log init, process start
+RelationSubPipe.piper log init, process start
+
+ClosestVerbExtractor attempted speed increase for dtr (not used)
+DateAndMeasurementExtractor attempted speed increase for dtr (not used)
+DocTimeRelAnnotator attempted speed increase for dtr (not used)
+EventPropertyExtractor attempted speed increase for dtr (not used)
+NearbyVerbTenseXExtractor attempted speed increase for dtr (not used)
+SectionHeaderExtractor attempted speed increase for dtr (not used)
+TimeXExtractor attempted speed increase for dtr (not used)
+
+TreeUtils bring up to jdk8
+
+HyphenTextModifierImplTests Comment
+TestCDASegmentAnnotator Comment
+TestClearNLPAnalysisEngines Comment
+"
+post;apache_ctakes;99acba0fa7b04e047d42262a013d762ddf815222;Sean Finan <sean.finan@childrens.harvard.edu>;1671496555;"Some touch ups on the examples
+Added [set] creator to IdentifiedAnnotationBuilder for non-umls group IA
+"
+post;apache_ctakes;b096dc12572d66b373b6fd63907d1b2a2525f301;Sean Finan <sean.finan@childrens.harvard.edu>;1671506011;"Extracted PausableFileLoggerAE from CommandRunner and CtakesRunner
+Comments in StartFinishLogger and XmiCollectionReaderCtakes
+"
+post;apache_ctakes;46af8dd2deef83282da7358ab5d344f68c3f7e4c;Sean Finan <sean.finan@childrens.harvard.edu>;1671507074;"Added some deprecations
+"
+post;apache_ctakes;76f09ab444f88c6f1a9410f78710dbc84e38ed44;Sean Finan <sean.finan@childrens.harvard.edu>;1671511110;"Use IdentifiedAnnotationBuilder
+"
+post;apache_ctakes;2eb534696f5ab1badb37183726828ea9dd3f2331;Sean Finan <sean.finan@childrens.harvard.edu>;1671560357;"Add deprecation message and stub reminder for assertion.
+ListAnnotator Add catch for exception from TimSort
+"
+post;apache_ctakes;f9e7de2b34f420f4dbe27421a6bda534a0f169fa;Sean Finan <sean.finan@childrens.harvard.edu>;1671560832;"CTAKES-72  Remove eclipse launch configurations.
+"
+post;apache_ctakes;4b56534ba361a9c5957e913950223ca6bae4b1d0;Sean Finan <sean.finan@childrens.harvard.edu>;1671568715;"CTAKES-532
+CTAKES-531
+"
+pre;arogozhnikov_einops;3476cd2d7d59d780155d6bdcb4cd7712261316b8;Alex Rogozhnikov <iamfullofspam@gmail.com>;1560758748;"switch off progress bars, add dependencies
+"
+pre;arogozhnikov_einops;c082112dc0c253cbcdd691c9aa70be7cadb00b15;Alex Rogozhnikov <iamfullofspam@gmail.com>;1560758748;"switch off progress bars, add dependencies
+"
+pre;arogozhnikov_einops;c527b4115453975623eab5cd95e720433a3cfeba;Alex Rogozhnikov <iamfullofspam@gmail.com>;1560825646;"testing travis + docker + matrix for multiple builds
+"
+pre;arogozhnikov_einops;f4501515da0ae362427db1444267679621e193bc;Alex Rogozhnikov <iamfullofspam@gmail.com>;1560825646;"testing travis + docker + matrix for multiple builds
+"
+pre;arogozhnikov_einops;4970e7e9bbc5469d11ebea37b99a6721f9a53fb2;Robin Kahlow <robinkahlow@web.de>;1564138025;"added jax support
+"
+pre;arogozhnikov_einops;b7c92d42f3cc41e013a06e51f2df78d6d4ba3a59;Robin Kahlow <robinkahlow@web.de>;1564138025;"added jax support
+"
+pre;arogozhnikov_einops;5c719aaf0043b495eea4efcd5aeeebe895cd3ccc;Alex Rogozhnikov <iamfullofspam@gmail.com>;1564275464;"Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	.travis.yml
+"
+pre;arogozhnikov_einops;513098c871fe15a2054cb6d69d2fdd8a90423a29;Alex Rogozhnikov <iamfullofspam@gmail.com>;1564275584;"support testing of jax
+"
+pre;arogozhnikov_einops;b2d64bff18b955d015dd06403423047f8217b91b;Alex Rogozhnikov <iamfullofspam@gmail.com>;1564275622;"minor enhancements of testing code
+"
+pre;arogozhnikov_einops;1788ebe812ef212bb792ff01d63bddd96ae76260;Alex Rogozhnikov <iamfullofspam@gmail.com>;1568698890;"simplified error definition
+"
+post;arogozhnikov_einops;830d3e6a86ff7debeca67a2177b73cc0993cb29f;Alex Rogozhnikov <iamfullofspam@gmail.com>;1581763233;"update readme
+"
+post;arogozhnikov_einops;30017449eadb8f3bdd136e01d830adea55d70a83;Alex Rogozhnikov <iamfullofspam@gmail.com>;1581763448;"minor comments
+"
+post;arogozhnikov_einops;00759ee327c4dec0cde3a0b93e50fe641c4dc48c;Alex Rogozhnikov <iamfullofspam@gmail.com>;1581763629;"bump version
+"
+post;arogozhnikov_einops;43118e25741f1af7899dbba0ff564dd7318e5398;Alex Rogozhnikov <iamfullofspam@gmail.com>;1588233711;"added link to github per recommendation
+"
+post;arogozhnikov_einops;3973849b8486b920a8a97cd78c5308849fcd03c3;Alex Rogozhnikov <iamfullofspam@gmail.com>;1589068476;"fix for mxnet after they broke zero-size variables
+"
+post;arogozhnikov_einops;5887779b380540c93572bfa8ad54c1d97730ec8d;Alex Rogozhnikov <iamfullofspam@gmail.com>;1589068476;"fix for mxnet after they broke zero-size variables
+"
+post;arogozhnikov_einops;24ad0a12bb04ffb4674c6a62398d481e4cbc6149;Alex Rogozhnikov <iamfullofspam@gmail.com>;1589780479;"minor comments
+"
+post;arogozhnikov_einops;cf2a4dea482334e243114e7b43ee820c11daeef1;Alex Rogozhnikov <iamfullofspam@gmail.com>;1589780479;"minor comments
+"
+post;arogozhnikov_einops;060397fd7a0d0a8acb34ff097f6c48607c4522ea;Alex Rogozhnikov <iamfullofspam@gmail.com>;1589780590;"documented inobvious parts of code
+"
+post;arogozhnikov_einops;c25d85da9bdcb586a62f38351cebb14282bf2be4;Alex Rogozhnikov <iamfullofspam@gmail.com>;1589780590;"documented inobvious parts of code
+"
+pre;bioconductor_biobase;287f0d46fd286974b570c5ff2d87bef474079882;Martin Morgan <mtmorgan@fhcrc.org>;1392014988;"reformat code
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86266 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;475126b8e6464739217ec0d34180eaa1e5b7a85d;Martin Morgan <mtmorgan@fhcrc.org>;1392015020;"copyEnv only needs to increment NAMED of elements, not duplicate them
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86267 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;614328c9462f4f315d1239de47ca58527c1ed2e9;Martin Morgan <mtmorgan@fhcrc.org>;1392015047;"code reformatting
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86268 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;c65d126ef850f5c11368aba7a90657c0cedf6535;Martin Morgan <mtmorgan@fhcrc.org>;1392015144;"avoid eapply and extra copy of dimnames<- when updated feature, sampleNames
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86269 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;285a8dccbaf1e10bacfabf1971eb158eb63ebfc5;Martin Morgan <mtmorgan@fhcrc.org>;1392015193;"version bump
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86270 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;d8fbfbdb906a42ae57ce70afae24fdd8922aafc9;Martin Morgan <mtmorgan@fhcrc.org>;1392016608;"avoid eapply in initialize, and sampleNames,NChannelSet-methods
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86271 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;60f66ff277c8e8c3b0fb219b53a0b432600d1fd2;Martin Morgan <mtmorgan@fhcrc.org>;1392860659;"no partial name match when updating AnnotatedDataFrame metadata
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@86611 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;03c4f835b22c396b11e90e376286df6612fd6ce0;Sonali Arora <sarora@fhcrc.org>;1393971141;"modify to new biocViews to DESCRIPTION file
+
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@87035 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;7a5119f5862ce5fba418fe172557c0799e7d6bcc;Dan Tenenbaum <dtenenba@fhcrc.org>;1397250441;"First version bump prior to creating 2.14 branch.
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@88838 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;bioconductor_biobase;01ce3f63b5f63c4d03f063b11224d3dd5714decc;Dan Tenenbaum <dtenenba@fhcrc.org>;1397251281;"Second version bump after creating 2.14 release branch.
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@88840 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;8b28bd47e38ef427042687a469edbf9494a7b49c;Martin Morgan <mtmorgan@fhcrc.org>;1412779501;"move old vignettes to legacy
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@95153 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;e1503fdd6b4aa0224a6ec37c31f8fdd40bcd55d0;Dan Tenenbaum <dtenenba@fhcrc.org>;1413236313;"Bump package versions prior to creating the 3.0 branch.
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@95439 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;a48a5858600fb77b1225adc9fc98806d102be317;Dan Tenenbaum <dtenenba@fhcrc.org>;1413236861;"Bumping versions after creating 3.0 release branch.
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@95443 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;37af59303a723b727be77a3dab1c364060b4c4b3;H Bengtsson <hb@aroma-project.org>;1419021056;"Rd correction: rowMedians() is not using rowQ() - that changed years ago.
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@97818 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;d15f61db164a3226ad3ecdc79b9cf0f4b9b07bc4;H Bengtsson <hb@aroma-project.org>;1419021086;"# Bumped version
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@97819 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;d2f70522c61ae8511f702d704799357ee76df399;Martin Morgan <mtmorgan@fhcrc.org>;1425003675;"misc clean-up
+
+- requireNamespace() rather than require()
+- no need for ""tools""
+- remove non-functional 'old' cache code
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@99908 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;a60b14aaef55b1415307832eac6ae4e7a901d202;Martin Morgan <mtmorgan@fhcrc.org>;1425003832;"Add write.AnnotatedDataFrame
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@99909 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;b609e0df9c3f9796815e27545b1ed9d68aa48dc4;Wolfgang Huber <w.huber@dkfz-heidelberg.de>;1427366577;"Updated (Biobase) and added (BiocGenerics) the CITATION file, which now lists the 2015 paper in Nature Methods.
+
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@101204 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;307d7c59b5350f0c2b33357a14359c16ce32f89f;Martin Morgan <mtmorgan@fhcrc.org>;1427377474;"citation needs entry=""Article""
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@101215 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+post;bioconductor_biobase;2bfd83e26adba6fcd584a86f660916257af137a1;Dan Tenenbaum <dtenenba@fhcrc.org>;1429213321;"Bump versions prior to creating 3.1 branch.
+
+
+git-svn-id: file:///home/git/hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/Biobase@102591 bc3139a8-67e5-0310-9ffc-ced21a209358
+"
+pre;harpgroup_r-dh-ecohydro;c63109f519f4adc03e481637064c564665cbe73c;Burgholzer <Robert.Burgholzer@deq.virginia.gov>;1611696744;"allow tweaking of axis
+"
+pre;harpgroup_r-dh-ecohydro;7ad4f171de07aea53b6953b1b27cd77898d650e2;rburghol <rburghol@vt.edu>;1611696799;"Merge pull request #100 from HARPgroup/flex
+
+allow tweaking of axis"
+pre;harpgroup_r-dh-ecohydro;47db724d871ff742521a1c8d3dd242b19bb93480;Joseph Kleiner <jkleiner@vt.edu>;1614368574;"habitat code - kicking the tires
+"
+pre;harpgroup_r-dh-ecohydro;173f65c9961264dc57b946534847bb1c92be9db5;Joey Kleiner <jkleiner@vt.edu>;1614368998;"Merge pull request #101 from HARPgroup/hab_tools
+
+habitat code - kicking the tires"
+pre;harpgroup_r-dh-ecohydro;9bf69744cf6dc5da447bf3e71bf85ce14e606b24;Burgholzer <Robert.Burgholzer@deq.virginia.gov>;1620822098;"i think these changes are meaningless and can be discarded but sstashing here just in case
+"
+pre;harpgroup_r-dh-ecohydro;e1cd07802c6a7281c65dc0a509e03911057512df;Burgholzer <Robert.Burgholzer@deq.virginia.gov>;1620823600;"add calc of % flow change under the return flow of interest
+"
+pre;harpgroup_r-dh-ecohydro;173ce12a7e2ba4a1b2517641424916cb8a156a79;rburghol <rburghol@vt.edu>;1620823784;"Merge pull request #102 from HARPgroup/allpct
+
+add calc of % flow change under the return flow of interest"
+pre;harpgroup_r-dh-ecohydro;183f29253cd0daee739d3d262e258fd23b2b4683;Burgholzer <robert.burgholzer@deq.virginia.gov>;1645654541;"eliminate globals. more anaylysis examples
+"
+pre;harpgroup_r-dh-ecohydro;bb32d3d03b2784ff87cc8f4f3a4f40773dc3f498;Burgholzer <Robert.Burgholzer@deq.virginia.gov>;1650462637;"eliminate global WUA.df
+"
+pre;harpgroup_r-dh-ecohydro;f7c43a3da6fe68da8ec1e62f34e4f67147db63d2;rburghol <rburghol@vt.edu>;1650462688;"Merge pull request #103 from HARPgroup/allpct
+
+Allpct"
+post;harpgroup_r-dh-ecohydro;b916a6a27a2e0eeca191cc10478698832b7237ff;Burgholzer <Robert.Burgholzer@deq.virginia.gov>;1746204496;"old changes
+"
+post;harpgroup_r-dh-ecohydro;d75b511eab33882e355be89f51f14a5d2fd1c139;rburghol <rburghol@vt.edu>;1746204620;"Merge pull request #104 from HARPgroup/allpct
+
+old changes"
+pre;issp-center-dev_hphi;fb3ed169f365ef57501bdd8ad5950dfb98c96e9d;HPhi <hphi-dev@issp.u-tokyo.ac.jp>;1600243875;"Update by TravisCI
+"
+pre;issp-center-dev_hphi;15109c228f9332f05dc994ad16a6218c15c29d59;k-yoshimi <k-yoshimi@issp.u-tokyo.ac.jp>;1604899042;"bugfix of tests for hcor
+"
+pre;issp-center-dev_hphi;80a0e2fd15f321c49da060aa356a5aeadc0dda3d;HPhi <hphi-dev@issp.u-tokyo.ac.jp>;1604900159;"Update by TravisCI
+"
+pre;issp-center-dev_hphi;5edef9a62cb661737331b44654c8d799533e5985;Yuichi Motoyama <y-motoyama@issp.u-tokyo.ac.jp>;1610086334;"add STDFACE_DIR option
+"
+pre;issp-center-dev_hphi;2a936dccb168595520ab865f2e3f064a2304063e;Yuichi Motoyama <y-motoyama@issp.u-tokyo.ac.jp>;1610086380;"Merge branch 'master' into develop
+"
+pre;issp-center-dev_hphi;93c0064e5c794e6178c5716f242de24962e7693a;Yuichi Motoyama <y-motoyama@issp.u-tokyo.ac.jp>;1610086395;"Merge branch 'develop' into stdface_dir
+"
+pre;issp-center-dev_hphi;b59180497176fd63d6daf9cd503ed13f1e21b5d7;Yuichi Motoyama <y-motoyama@issp.u-tokyo.ac.jp>;1610087615;"update installation instruction
+"
+pre;issp-center-dev_hphi;d63ad0f6f78ea7861dd4750461761f971e1e84d2;HPhi <hphi-dev@issp.u-tokyo.ac.jp>;1610088421;"Update by TravisCI
+"
+pre;issp-center-dev_hphi;81e3aab167ba513bfdcb4b402e3e07168b1ef038;Yuichi Motoyama <y-motoyama@issp.u-tokyo.ac.jp>;1610090603;"Merge pull request #108 from issp-center-dev/stdface_dir
+
+"
+pre;issp-center-dev_hphi;c0b7dad6fc82605c07f262d638ecfe91f701cd95;HPhi <hphi-dev@issp.u-tokyo.ac.jp>;1610091667;"Update by TravisCI
+"
+post;issp-center-dev_hphi;07109fb785e0cec8d76bcfc5f0f52c9c0afba654;misawa@me.com <tmisawa@issp.u-tokyo.ac.jp>;1620199779;" for cTPQ
+"
+post;issp-center-dev_hphi;4fbf57289e56021edebcbf36df0b9bafac2d1b8a;o00016 <o00016@obcx06.obcx>;1620200743;" mod openmp
+"
+post;issp-center-dev_hphi;f2f5d7119dbecb3f6d9fa7c52a5efb77a1242db4;o00016 <o00016@obcx06.obcx>;1620207011;" mod cTPQ
+"
+post;issp-center-dev_hphi;48ce11523be51bfaf0c44ee86bca286e04ab59c7;o00016 <o00016@obcx02.obcx>;1620788688;" mod cTPQ
+"
+post;issp-center-dev_hphi;b8b883cc7fc31119f9afcc9b105b2f2753152d48;Mitsuaki Kawamura <kawamitsuaki@gmail.com>;1621755866;"This change of the reference is neccesary for the recent change of StdFace(2021/5/23).
+"
+post;issp-center-dev_hphi;59a16053bda2455eec1f253f9766631020a1021e;HPhi <hphi-dev@issp.u-tokyo.ac.jp>;1621757082;"Update by TravisCI
+"
+post;issp-center-dev_hphi;97db0adbf8f47fbee0ec448eb0c055cba03b7bae;Mitsuaki Kawamura <kawamitsuaki@gmail.com>;1621870767;"test : For adjusting the previous commit for StdFace(2021/5/25)
+doc : There was no definition for the relationship between spin index and Sz for S>1/2 system.
+"
+post;issp-center-dev_hphi;3104673b1978fa611be35900d2166958fb2ff0c1;HPhi <hphi-dev@issp.u-tokyo.ac.jp>;1621871929;"Update by TravisCI
+"
+post;issp-center-dev_hphi;1883d1bb492aa1c20f0bcf634018de632ce21304;k-yoshimi <k-yoshimi@issp.u-tokyo.ac.jp>;1622070517;"moved submodule StdFace to v0.1
+"
+post;issp-center-dev_hphi;e574edb0e57a2d2dae2a13140a0c7f5b317d11ea;misawa@me.com <tmisawa@issp.u-tokyo.ac.jp>;1622088001;" add test for Sy
+"
+pre;kelu124_echomods;f3101b1c8f06e6e9cd46c4f6992a9cc012796fda;kelu124 <kelu124@gmail.com>;1619382277;"Documentation for MUXes
+"
+pre;kelu124_echomods;f900c294ce3f877e3f095dc3b5d98324d1031b4a;kelu124 <kelu124@gmail.com>;1619382600;"Pic of 20210425a setup
+"
+pre;kelu124_echomods;07e610dd1c61696912caa38633a642ab016308c6;kelu124 <kelu124@gmail.com>;1619715136;"IDing rings
+"
+pre;kelu124_echomods;3a982fe13e2ac5cbfb5d6902b0c375fde88b7c2f;kelu124 <kelu124@gmail.com>;1619970695;"Comm update
+"
+pre;kelu124_echomods;32dad12b96363cb854f04ebc670cdb69eb405563;kelu124 <kelu124@gmail.com>;1619970873;"Adding some MUX and readmes
+"
+pre;kelu124_echomods;78c0d0eb2b0cb0dee76d737cc3d373f80019b95c;kelu124 <kelu124@gmail.com>;1624126900;"Add biblio
+"
+pre;kelu124_echomods;a49090ce3ff4bb0cd75ba1427a84d371398c95ad;kelu124 <kelu124@gmail.com>;1624127133;"New logs
+"
+pre;kelu124_echomods;abe5786e269a4834ac7cb391fc645f4983aeabdd;kelu124 <kelu124@gmail.com>;1624217682;"Update community
+"
+pre;kelu124_echomods;217af81d6e7444a5d0252d4b0cb165620db7de61;kelu124 <kelu124@gmail.com>;1628944138;"Adding slack archives
+"
+pre;kelu124_echomods;65a319959425eb1750986f37f1f956fee073964c;kelu124 <kelu124@gmail.com>;1628944225;"Updated maps
+"
+post;kelu124_echomods;458d117c87e952c6adfa407af0886dc608cf55fc;kelu124 <kelu124@gmail.com>;1640549048;"new PDFs
+"
+post;kelu124_echomods;746ffc821de17a2316277ab093a37aa37915552e;kelu124 <kelu124@gmail.com>;1640901232;"Adding bk1850 nd block diagrams in general
+"
+post;kelu124_echomods;8ed13f65c102b34199bc917f03c1d5c7d0938c73;kelu124 <kelu124@gmail.com>;1641136026;"Adding bk1850
+"
+post;kelu124_echomods;e44525965e2f367f2088daef38fd549b33690c04;kelu124 <kelu124@gmail.com>;1641136043;"Adding kretzir175ag
+"
+post;kelu124_echomods;0dc48be4adfc2186c2f39fbe602107c35fe4e793;kelu124 <kelu124@gmail.com>;1641136055;"Updates of community and probes
+"
+post;kelu124_echomods;1a289136555ffdc20854873aa596f48be479a3af;kelu124 <kelu124@gmail.com>;1641136086;"Adding bugs tracker
+"
+post;kelu124_echomods;655938f508d635eb8f07714e495dfb9944dd64e0;kelu124 <kelu124@gmail.com>;1641738329;"New articles
+"
+post;kelu124_echomods;6042a33ba29fddf2b5a5fb9b5618bc34d1e5f1fa;kelu124 <kelu124@gmail.com>;1643218673;"New probes
+"
+post;kelu124_echomods;30c80c84a836e7d1185dd38b5601c020bef2871a;kelu124 <kelu124@gmail.com>;1643218691;"Assy + ffcid
+"
+post;kelu124_echomods;c96024387de1e7944eba54ddda68a28a169e68a5;kelu124 <kelu124@gmail.com>;1643218702;"Update documentation following new probes
+"
+pre;open-sdr_openwifi;a47b55e6cafa759d041cd8d309e454edc8a51770;Jiao Xianjun <xianjun.jiao@ugent.be>;1683548015;"Add antsdr E310v2 support (#310)
+
+* add support for antsdr e310v2
+
+---------
+
+Co-authored-by: black_pigeon <1530604142@qq.com>
+Co-authored-by: MicroPhase <50510771+MicroPhase@users.noreply.github.com>"
+pre;open-sdr_openwifi;9ccab282f1a000adc8289bd842a7195222af87c9;Jiao Xianjun <xianjun.jiao@ugent.be>;1683614695;Add antsdr e310v2 to README.md
+pre;open-sdr_openwifi;9b4a82f8c0dfc5edbeef5d7c51c092ef2c3267dd;Jiao Xianjun <xianjun.jiao@ugent.be>;1683658975;Add TSN paper from Jetmir
+pre;open-sdr_openwifi;63a8161d189a2cf0eb93f5df441a180537506a59;Jiao Xianjun <xianjun.jiao@ugent.be>;1684840434;"Add LTE/WiFi coexist paper
+
+openwifi offer I/Q sample"
+pre;open-sdr_openwifi;c11f6dddf902e8ce72d80648cd3bc283a3c83ad0;Thijs Havinga <94684410+HavingaThijs@users.noreply.github.com>;1684912635;Update detailed HLS paper link
+pre;open-sdr_openwifi;f7c95210788e910299dc3d925c979ba79877fcc3;Jiao Xianjun <xianjun.jiao@ugent.be>;1685038721;Use arxiv link for Thijs HLS paper
+pre;open-sdr_openwifi;ecbb2314463d88f4b2b9bda4eccc0cc589630508;Jiao Xianjun <xianjun.jiao@ugent.be>;1685038793;Correct link of owfuzz Vulnerabilities
+pre;open-sdr_openwifi;a4916c070160f2b691661b30aa1f272858ae5171;Jiao Xianjun <xianjun.jiao@ugent.be>;1686129738;"Add solution to known issue:
+
+No space left on device"
+pre;open-sdr_openwifi;d0d5556d26246dff58153b5112e9690001336256;Jiao Xianjun <xianjun.jiao@ugent.be>;1686218697;Add FPGA internal loopback inline.
+pre;open-sdr_openwifi;39862403f422c1e3cf15906ec30bab741b427ca9;Jiao Xianjun <xianjun.jiao@ugent.be>;1687782014;Update the citation format of openwifi project.
+post;open-sdr_openwifi;e53f7d6468f8ae26ae6b67ce5dd7d005069ae9ef;Jiao Xianjun <xianjun.jiao@ugent.be>;1693558271;"Update publications.md
+
+Add Thijs long paper about Tx Lo suppression."
+post;open-sdr_openwifi;0ce2e6b86ade2f6164a373b2e98d075eb7eecd9e;Jiao Xianjun <xianjun.jiao@ugent.be>;1694171031;Add recent openwifi papers.
+post;open-sdr_openwifi;33366f7c0527430fe3d17b69bbfd2cc37ce1a93f;Xianjun Jiao <xianjun.jiao@ugent.be>;1694512571;"Align the comment to code in inject_80211.c
+"
+post;open-sdr_openwifi;3696c5e269693e1525db64bf1c2119578c6199b0;Xianjun Jiao <xianjun.jiao@ugent.be>;1694512658;"Too many dmesg while running side_ch:
+Remove them
+"
+post;open-sdr_openwifi;f6dab9cd3b99d323016724884a68c1b4e40397ed;Thijs Havinga <94684410+HavingaThijs@users.noreply.github.com>;1694513630;"Update addr2 read-back register
+"
+post;open-sdr_openwifi;849c3b5e44bfc33c0fe6dfd8b80e61a732c83d61;Xianjun Jiao <xianjun.jiao@ugent.be>;1694513955;"Fix typo of printing in tx_intf.c
+"
+post;open-sdr_openwifi;f0a95ef6110f3bd8fa65483af28c8e944a0ca500;Xianjun Jiao <xianjun.jiao@ugent.be>;1694514057;"Remove unused lines
+"
+post;open-sdr_openwifi;061ce1205ffdcc784fd8d3397cde1850ae704be8;Xianjun Jiao <xianjun.jiao@ugent.be>;1694514140;"add missing break in inject_80211.c
+"
+post;open-sdr_openwifi;1cde89d9e8da30d4661a8dc7b050651631a2d046;Xianjun Jiao <xianjun.jiao@ugent.be>;1694514433;"Remove useless content in README
+"
+post;open-sdr_openwifi;8cfbbc8e8d748816cdbb0306b4a28b31cfd3a14b;Xianjun Jiao <xianjun.jiao@ugent.be>;1694514598;"Add waterfall to side_info_display.py:
+1. While want to show waterfall, it must be added as the 3rd argument which means the 2nd argument num_eq (by default 8) has to be input!
+2. Change the waterfall colormap: from fixed to dynamic in side_info_display.py
+3. Remove periodical print for performance consideration.
+"
+pre;r-quantities_units;0b166d9e4fe870af838680c5e2c755839a2bba3f;Iñaki Úcar <iucar@fedoraproject.org>;1643886274;"remove orphaned udunits2 package
+"
+pre;r-quantities_units;ff6b8ae853d9fe2d9818be0b424bdb86b50d7899;Iñaki Úcar <iucar@fedoraproject.org>;1643887642;"update rendered vignette
+"
+pre;r-quantities_units;d2ae51245c6ce0a3adc64f6e11d27dc80ca8c980;runner <runner@Mac-1644066178630.local>;1644067404;"Built site for units: 0.8-0@ff6b8ae
+"
+pre;r-quantities_units;a5ce3c901374b7561fd42b2b97abe5f25c5a5fb7;Jeroen Ooms <jeroenooms@gmail.com>;1644614242;"Windows: update to udunits-2.2.28
+"
+pre;r-quantities_units;92e363a2f0b7fc3b20ff91ab90d104119b4f9dff;Iñaki Ucar <iucar@fedoraproject.org>;1644615430;"Merge pull request #302 from jeroen/main
+
+Windows: update to udunits-2.2.28"
+pre;r-quantities_units;2ec0d8e80f1270d96bca8e7f33c6c80e026b1531;Iñaki Úcar <iucar@fedoraproject.org>;1653136295;"fix multiplier parsing for exp(log(x)) operations, closes #321
+"
+pre;r-quantities_units;1074c23ebba99945140a723ea4b99290fe1ffec4;Iñaki Úcar <iucar@fedoraproject.org>;1653147149;"update actions versions
+"
+pre;r-quantities_units;b9e8fc315a49a069ad14f4b963cd9f276391fb65;Iñaki Úcar <iucar@fedoraproject.org>;1653148125;"update configure
+"
+pre;r-quantities_units;20d60014920beaf2c8c4edb8658b6baee8dfe146;Iñaki Úcar <iucar@fedoraproject.org>;1653151609;"update Windows installation
+"
+pre;r-quantities_units;07b2606f0bfdaec526bb1016dcfb85aa997c4a18;Iñaki Úcar <iucar@fedoraproject.org>;1653227411;"fix URLs
+"
+post;r-quantities_units;fb660d39c5e32e633b22861cb7934d27942aad4f;Iñaki Úcar <iucar@fedoraproject.org>;1667939371;"fix specification of secondary axes with scale_units, closes #326
+"
+post;r-quantities_units;26f3a63285cf7b2c5fa3ef18b052b0db13b46339;Edzer Pebesma <edzer.pebesma@uni-muenster.de>;1670060492;"closes #331
+"
+post;r-quantities_units;41be3c96c1d0422748a2d23c38642e97b0473a24;Edzer Pebesma <edzer.pebesma@uni-muenster.de>;1670061373;"closes #329
+"
+post;r-quantities_units;aa387a10cd014f27cce5671bb2a5c2cd7eb43805;Edzer Pebesma <edzer.pebesma@uni-muenster.de>;1670063630;"fixes #313
+"
+post;r-quantities_units;7622f33eecbdb8a23e35d8979622dc0ecabfc978;Edzer Pebesma <edzer.pebesma@uni-muenster.de>;1670063706;"news, #313
+"
+post;r-quantities_units;5034e9dd91d695aaea0e24558cb6815bba1140c8;Iñaki Úcar <iucar@fedoraproject.org>;1670096386;"revert aa387a1, implementation for any combination of units, closes #313
+"
+post;r-quantities_units;b10d538e5b533182af7d7ea10d0497b345e65688;Iñaki Úcar <iucar@fedoraproject.org>;1670096528;"rebuild vignette
+"
+post;r-quantities_units;644436a53c0cd61776669a22f0aef8236bbc6e24;Iñaki Úcar <iucar@fedoraproject.org>;1670688749;"use bootstrap 5
+"
+post;r-quantities_units;972d8ec61b182bff6011a452cf524fd63eed1295;Iñaki Úcar <iucar@fedoraproject.org>;1670688877;"remove unnecessary html
+"
+post;r-quantities_units;32183746937ab2665325e3fa2f5a7f1b439792f2;Iñaki Úcar <iucar@fedoraproject.org>;1670688906;"some fixes in vignettes
+"
+pre;stan-dev_loo;5b0b93599f5c68ebdb9a18e581fbf4bd0f6acdb9;jgabry <jgabry@gmail.com>;1524493682;"Suppress sampling output
+"
+pre;stan-dev_loo;837c7c1df6fee7853491d716dbde1419eb5ce17e;jgabry <jgabry@gmail.com>;1524493736;"Use results=""hide"" in vignette
+
+[ci skip]
+"
+pre;stan-dev_loo;72971e2d093f21c8b1bf2f47d22a6c1147e78080;jgabry <jgabry@gmail.com>;1524497587;"Fix typo in DESCRIPTION
+"
+pre;stan-dev_loo;148140ed1babf4854c0e2b5a6315c90efadb0703;jgabry <jgabry@gmail.com>;1524497604;"Merge branch 'master' into gh-pages
+"
+pre;stan-dev_loo;849533bcfb5bdad23b7fb08ec34255c0aa053e6b;jgabry <jgabry@gmail.com>;1524497851;"Update index
+"
+pre;stan-dev_loo;a74f12e93eb5f700bdab23cb6a3a2eec7b090172;jgabry <jgabry@gmail.com>;1524512428;"Add se_diff column to compare output for more than 2 models
+
+Closes #78
+"
+pre;stan-dev_loo;91b92a391b7151b09a128a2e7a2bf84cc2fc7a70;jgabry <jgabry@gmail.com>;1524537467;"Fix rownames
+
+ci skip
+"
+pre;stan-dev_loo;77c39810391f3321309ef49938adb97a92ed24fc;jgabry <jgabry@gmail.com>;1524538285;"Update NEWS
+"
+pre;stan-dev_loo;ae4714e294cab4439bc7ccf969a20c2f7814b1f1;Jonah Gabry <jgabry@gmail.com>;1524579783;"Merge pull request #79 from stan-dev/compare-with-se_diff
+
+Compare with se_diff"
+pre;stan-dev_loo;71a73b771661af754ed9718e7681208f3225ec2a;jgabry <jgabry@gmail.com>;1524691203;"projpred link
+"
+post;stan-dev_loo;6444d64ca4aedcc87e9f0a1404fcee5c86107e9f;jgabry <jgabry@gmail.com>;1534432929;"m-step-ahead
+"
+post;stan-dev_loo;07697a2d0ebc0c19bba3f176c1625def5e87f404;jgabry <jgabry@gmail.com>;1537191375;"loo_compare: same output regardless of number of models
+"
+post;stan-dev_loo;ca24e36c09ba72030f7aa2be2ba1a70af7eb560a;jgabry <jgabry@gmail.com>;1537192406;"update print.compare.loo
+
+[ci skip]
+"
+post;stan-dev_loo;1ce802387ecf2f02e09f7dc351905db3166eb381;jgabry <jgabry@gmail.com>;1537193972;"export is.loo, is.waic, etc.
+
+[ci skip]
+"
+post;stan-dev_loo;a654d21644eea33bb5dad1478ffdff43249288fe;jgabry <jgabry@gmail.com>;1537194550;"update doc
+
+[ci skip]
+"
+post;stan-dev_loo;db2e8ba00d7bbc89a49a1101faca7d8fb0c63b30;jgabry <jgabry@gmail.com>;1537266019;"export find_model_names()
+"
+post;stan-dev_loo;33f332875dc3e37af4ca9600e79472152f610a13;jgabry <jgabry@gmail.com>;1537273715;"loo_compare: check if list
+"
+post;stan-dev_loo;91bbaf95ca3f9aac5e8dd0420f7efa0ce04c7766;jgabry <jgabry@gmail.com>;1537274287;"update tests
+
+[ci skip]
+"
+post;stan-dev_loo;d96618d9d36b5d148ffe15ae4b58cdfca56c92d7;jgabry <jgabry@gmail.com>;1537278120;"kfold generic
+"
+post;stan-dev_loo;87017677889bd3c9d078cebc42b07f3e486b9c51;jgabry <jgabry@gmail.com>;1537278729;"remove unused rds files
+"
+pre;typelevel_frameless;07db58687d7588604599d2daaa74c41a2d0ccdf4;Adelbert Chang <adelbertc@gmail.com>;1427627672;"Column renaming
+"
+pre;typelevel_frameless;c2c147b1ee503102a70d147f719452f1ed23fa5c;Adelbert Chang <adelbertc@gmail.com>;1427687354;"Preliminary work on columns
+"
+pre;typelevel_frameless;25b869e633e4c8cd218d7ea2dbba1fb9ea905ab8;Adelbert Chang <adelbertc@gmail.com>;1427687402;"Reorder
+"
+pre;typelevel_frameless;a9bc99a1b2b41273b0d16bba21a85409abde1f53;Adelbert Chang <adelbertc@gmail.com>;1427693300;"Phantom type param on Column tracks name
+"
+pre;typelevel_frameless;dec6944be3cb7a1d27e9adef9b43507492afc545;Adelbert Chang <adelbertc@gmail.com>;1427693429;"Not supporting untyped/unsafe ops
+"
+pre;typelevel_frameless;882a226441a51ebfbabeb9c6d099b76f1a42245f;Adelbert Chang <adelbertc@gmail.com>;1427698231;"Some column stuff for DataSheet
+"
+pre;typelevel_frameless;09ac25e4e9f59c8ef04c0757ff497b7bc338b994;Adelbert Chang <adelbertc@gmail.com>;1427868032;"Update README
+"
+pre;typelevel_frameless;5c3c99f890f9f1149cf7dc4270778e016484e974;Adelbert Chang <adelbertc@gmail.com>;1427868073;"Implement explode and join, and mark DataSheet serializable
+
+* DataSheet is Serializable
+* Mark methods that need ProductArgs
+* Implement explode and join
+* Enum for JoinType
+* Remove unsafe functions
+"
+pre;typelevel_frameless;f02f9a3a79ef7e2a1a60bee97f4d5161cd40309c;Adelbert Chang <adelbertc@gmail.com>;1428643110;"Joins and select
+
+* Added joins
+* Use Shapeless SingletonProductArgs for select and toDF
+"
+pre;typelevel_frameless;2d2f056feb99b8e581f1bfb620452e5cc9afcaf3;Adelbert Chang <adelbertc@gmail.com>;1428644046;"Safe head/tail in selectAll
+"
+post;typelevel_frameless;2c091980efe15b414fb103f2315429c89949a0d6;Olivier Blanvillain <olivier.blanvillain@mfglabs.com>;1448184014;"Initial commit
+
+Conflicts:
+	LICENSE
+	README.md
+"
+post;typelevel_frameless;69bda9fda6ac9e3ca801d868d52825b6b86942fc;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448185469;"TypeFrame method stubs from org.apache.spark.sql.DataFrame
+
+Conflicts:
+	.gitignore
+	build.sbt
+"
+post;typelevel_frameless;4592fa489f42b76ab06ac07879e51c14646fc30e;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448185618;"Delegate to wrapped DataFrame, remove deprecated
+"
+post;typelevel_frameless;57211eab356d9ad988bf8899a4ab4601410bb295;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448186180;"Implement join, sort, orderBy, select, unionAll, intersect, except
+"
+post;typelevel_frameless;047fc3ceb2a4e9290010d0abd665ad5a9be43e2b;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448186541;"Use SingletonProductArgs for Column* arguments
+"
+post;typelevel_frameless;1c3dc3deab6e606d064ea8fcb47cd5d2dd71621c;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448188382;"Implement StatFunctions, NaFunctions, head, take, collect
+
+- Check columns for groupBy, rollup, cube (still return a DataFrame...)
+- Use refined to type check some Int/Double arguments
+
+Conflicts:
+	build.sbt
+"
+post;typelevel_frameless;be96a150bba732e65d5b48298566742d3b730149;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448351021;"Add tests
+
+Conflicts:
+	build.sbt
+"
+post;typelevel_frameless;d97eac6717881e65d061853f961e34365e852b20;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448408181;"Add map filter reduce flatMap foreach
+"
+post;typelevel_frameless;7d334fb98ed1a5573479f42fda2f7084674c3863;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448484432;"Use .Aux[_, Out] in all return type for better type inference
+"
+post;typelevel_frameless;463a713b2bf8920a9c0f2685b1d3b71388cc1684;Olivier Blanvillain <olivier.blanvillain@gmail.com>;1448667893;"Add explode with selection of column removed
+
+What's the point of taking a subset of the columns? You can always do a select
+before hand and simply ignore the extra columns in the exploding function...
+"
