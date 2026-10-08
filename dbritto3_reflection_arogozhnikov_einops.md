@@ -1,6 +1,6 @@
 # arogozhnikov_einops
 
-**Gap:** 2019-10 to 2020-01 (4 months).
+**Gap:** 2019-10 to 2020-01 (4 months)
 
 **Possible reason:** The four month pause may have been between updates.
 
@@ -8,7 +8,7 @@
 
 **Status:** Active
 
-**Recent themes:** Other, Bug fixes.
+**Recent themes:** Bug fixes.
 
 **Reflection:** The four-month gap looks more like a pause between updates than abandonment. A user requested a package update on February 14, 2020, followed by README and version changes on February 15. The true reason for this pause is difficult to reliably determine.
 

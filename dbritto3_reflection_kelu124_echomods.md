@@ -1,6 +1,6 @@
 # kelu124_echomods
 
-**Gap:** 2021-09 to 2021-11 (3 months).
+**Gap:** 2021-09 to 2021-11 (3 months)
 
 **Possible reason:** An intermittent experiment/documentation schedule.
 
@@ -8,7 +8,7 @@
 
 **Status:** Active
 
-**Recent themes:** Documentation updates, Other.
+**Recent themes:** Documentation updates.
 
 **Reflection:** The same contributor returned with PDFs and probe material, and later activity stayed low. The evidence shows continued occasional work rather than a large development recovery.
 

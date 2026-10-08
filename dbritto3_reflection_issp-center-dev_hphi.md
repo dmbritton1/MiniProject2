@@ -1,6 +1,6 @@
 # issp-center-dev_hphi
 
-**Gap:** 2021-02 to 2021-04 (3 months).
+**Gap:** 2021-02 to 2021-04 (3 months)
 
 **Possible reason:** The pause may fall between feature updates.
 
@@ -8,7 +8,7 @@
 
 **Status:** Active
 
-**Recent themes:** Documentation updates, Other.
+**Recent themes:** Documentation updates.
 
 **Reflection:** The three-month gap is short and followed by scientific feature and test work. Issue activity during the pause makes complete abandonment unlikely.
 

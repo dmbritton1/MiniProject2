@@ -1,6 +1,6 @@
 # r-quantities_units
 
-**Gap:** 2022-06 to 2022-10 (5 months).
+**Gap:** 2022-06 to 2022-10 (5 months)
 
 **Possible reason:** Maintenance paused while users kept filing issues.
 
@@ -8,7 +8,7 @@
 
 **Status:** Active
 
-**Recent themes:** Bug fixes, Other.
+**Recent themes:** Bug fixes.
 
 **Reflection:** The five-month gap is followed by a fix that directly references a user issue. Existing maintainers continued with bug fixes and documentation, with 179 collected commits after the gap.
 

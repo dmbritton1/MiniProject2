@@ -1,6 +1,6 @@
 # apache_ctakes
 
-**Gap:** 2019-12 to 2022-10 (35 months).
+**Gap:** 2019-12 to 2022-10 (35 months)
 
 **Possible reason:** The README creation and master-to-main move could suggest a large transition in its history.
 

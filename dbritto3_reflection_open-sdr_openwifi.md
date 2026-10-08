@@ -1,6 +1,6 @@
 # open-sdr_openwifi
 
-**Gap:** 2023-07 to 2023-08 (2 months).
+**Gap:** 2023-07 to 2023-08 (2 months)
 
 **Possible reason:** The two-month pause is brief and no specific cause is established.
 

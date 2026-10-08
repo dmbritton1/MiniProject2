@@ -1,6 +1,6 @@
 # harpgroup_r-dh-ecohydro
 
-**Gap:** 2022-05 to 2025-04 (36 months).
+**Gap:** 2022-05 to 2025-04 (36 months)
 
 **Possible reason:** A low-maintenance period is plausible, but the reason for the pause is unknown.
 
@@ -8,7 +8,7 @@
 
 **Status:** Inactive
 
-**Recent themes:** Other, Feature development.
+**Recent themes:** Feature development.
 
 **Reflection:** The 36-month gap is followed by only two commits, both associated with old changes on May 2, 2025. I would count this as minor maintenance commits, but not a sustained recovery. 
 

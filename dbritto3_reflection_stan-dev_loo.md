@@ -1,6 +1,6 @@
 # stan-dev_loo
 
-**Gap:** 2018-05 to 2018-07 (3 months).
+**Gap:** 2018-05 to 2018-07 (3 months)
 
 **Possible reason:** A pause after release work is plausible.
 

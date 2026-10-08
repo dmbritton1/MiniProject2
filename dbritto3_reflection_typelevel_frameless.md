@@ -1,6 +1,6 @@
 # typelevel_frameless
 
-**Gap:** 2015-05 to 2015-10 (6 months).
+**Gap:** 2015-05 to 2015-10 (6 months)
 
 **Possible reason:** The early prototype paused before a new development cycle and contributor.
 
